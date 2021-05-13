@@ -1,0 +1,202 @@
+body {
+    background-color: black;
+}
+
+html
+{
+    font-size: 10px;
+}
+
+table
+{
+    color: white;
+    font-size: 2rem;
+    margin: 1em;
+    width: 98%;
+    text-align: center;
+}
+
+.tableShotgun
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+iframe
+
+{
+    display: block;
+    width:560;
+    height:315;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+.grid-nav {
+    grid-area: Menu;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin: 0 10px;
+    line-height: 60px;
+    border: 10px solid grey;
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+ul li a {
+    
+    text-decoration: none;
+    font-size: 16px;
+    font-family: arial;
+    color: Black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: Fjalla One;
+}
+
+ul li a:hover {
+    color: red;
+    text-decoration-line:underline;
+}
+
+p {
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 5% auto 15%;
+    grid-template-rows: 5% 20% 20% 20% 20%;
+    grid-template-areas: 
+        "title title title"
+        "Menu Menu Menu"
+        "Text1 Text1 Pic1"
+        "Text2 Text2 Pic2"
+        "Text3 Text3 Pic3";
+    height: 1000px;
+}
+
+header
+{
+    grid-area: title;
+    background-color: white;
+    
+}
+
+.grid-title 
+{
+    font-size: 50px;
+    letter-spacing: 1em;
+    text-align: center;
+}
+
+.grid-Item1 
+{
+  grid-area: Pic1;
+    text-align: center;
+}
+
+.grid-picture1 
+{
+    width: 90%;
+}
+
+
+.p1
+{
+    grid-area: Text1;
+}
+
+.imgP1
+{
+    max-width: auto;
+    max-width: auto;
+}
+
+.p2
+{
+   grid-area: Text3;
+}
+
+.grid-Item2 
+{
+  grid-area: Pic3;
+    overflow: visible;
+    text-align: center;
+}
+
+.grid-picture2 
+{
+    overflow: visible;
+    width: 90%;
+}
+
+
+.grid-pictureJoel
+{
+    grid-area: Pic1;
+    height: 170%;
+    width: 100%;
+    overflow: visible;
+}
+
+
+.grid-pictureEllie
+{
+    grid-area: Pic3;
+    width: 100%;
+    height: 170%;
+    overflow: visible;
+}
+
+
+.pGray
+{
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+    font-family: Open Sans Condensed;
+}
+
+.grid-pictureRifle
+{
+    grid-area: Pic3;
+    width: 100%;
+    height: 140%;
+    overflow: visible;
+}
+
+.grid-pictureShotgun
+{
+    grid-area: Pic3;
+    width: 100%;
+    height: 140%;
+    overflow: visible;
+}
+
+
+
+
+
