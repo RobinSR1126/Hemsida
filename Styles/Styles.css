@@ -26,11 +26,15 @@ table
 iframe
 
 {
-    display: block;
-    width:560;
-    height:315;
+ width:560;
+ height:315;
 }
 
+.centeriframe
+{
+    text-align: center;
+    
+}
 
 
 * {
@@ -196,7 +200,29 @@ header
     overflow: visible;
 }
 
+h2
+{
+     color: white;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    
+}
 
+h3
+{
+     color: white;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
 
-
+h4
+{
+     color: white;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    
+}
 
