@@ -2,38 +2,36 @@ body {
     background-color: black;
 }
 
-html
-{
+html {
     font-size: 10px;
 }
 
-table
-{
+table {
     color: white;
     font-size: 2rem;
     margin: 1em;
     width: 98%;
     text-align: center;
+    border: 5px;
+    border-color: white;
+    padding: 1px;
+    list-style: none;
+    border-width: 10px
 }
 
-.tableShotgun
-{
+.tableShotgun {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 
-iframe
-
-{
- width:560;
- height:315;
+iframe {
+    width: 560;
+    height: 315;
 }
 
-.centeriframe
-{
+.centeriframe {
     text-align: center;
-    
 }
 
 
@@ -53,7 +51,7 @@ ul {
 
 .flex-container {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 .flex-item {
@@ -66,7 +64,7 @@ ul {
 }
 
 ul li a {
-    
+
     text-decoration: none;
     font-size: 16px;
     font-family: arial;
@@ -78,7 +76,7 @@ ul li a {
 
 ul li a:hover {
     color: red;
-    text-decoration-line:underline;
+    text-decoration-line: underline;
 }
 
 p {
@@ -88,12 +86,11 @@ p {
     margin-bottom: 0.5em;
 }
 
-.grid-container 
-{
+.grid-container {
     display: grid;
     grid-template-columns: 5% auto 15%;
     grid-template-rows: 5% 20% 20% 20% 20%;
-    grid-template-areas: 
+    grid-template-areas:
         "title title title"
         "Menu Menu Menu"
         "Text1 Text1 Pic1"
@@ -102,64 +99,54 @@ p {
     height: 1000px;
 }
 
-header
-{
+header {
     grid-area: title;
     background-color: white;
-    
+
 }
 
-.grid-title 
-{
+.grid-title {
     font-size: 50px;
     letter-spacing: 1em;
     text-align: center;
 }
 
-.grid-Item1 
-{
-  grid-area: Pic1;
+.grid-Item1 {
+    grid-area: Pic1;
     text-align: center;
 }
 
-.grid-picture1 
-{
+.grid-picture1 {
     width: 90%;
 }
 
 
-.p1
-{
+.p1 {
     grid-area: Text1;
 }
 
-.imgP1
-{
+.imgP1 {
     max-width: auto;
     max-width: auto;
 }
 
-.p2
-{
-   grid-area: Text3;
+.p2 {
+    grid-area: Text3;
 }
 
-.grid-Item2 
-{
-  grid-area: Pic3;
+.grid-Item2 {
+    grid-area: Pic3;
     overflow: visible;
     text-align: center;
 }
 
-.grid-picture2 
-{
+.grid-picture2 {
     overflow: visible;
     width: 90%;
 }
 
 
-.grid-pictureJoel
-{
+.grid-pictureJoel {
     grid-area: Pic1;
     height: 170%;
     width: 100%;
@@ -167,8 +154,7 @@ header
 }
 
 
-.grid-pictureEllie
-{
+.grid-pictureEllie {
     grid-area: Pic3;
     width: 100%;
     height: 170%;
@@ -176,53 +162,80 @@ header
 }
 
 
-.pGray
-{
+.pGray {
     color: darkgrey;
     font-size: 20px;
     text-align: center;
     font-family: Open Sans Condensed;
 }
 
-.grid-pictureRifle
-{
+.grid-pictureRifle {
     grid-area: Pic3;
     width: 100%;
     height: 140%;
     overflow: visible;
 }
 
-.grid-pictureShotgun
-{
+.grid-pictureShotgun {
     grid-area: Pic3;
     width: 100%;
     height: 140%;
     overflow: visible;
 }
 
-h2
+h2 
 {
-     color: white;
+    color: white;
     font-family: Josefin Sans;
     font-size: 2.5rem;
     margin-bottom: 0.5em;
-    
+
 }
 
-h3
+h3 
 {
-     color: white;
+    color: white;
     font-family: Josefin Sans;
     font-size: 2.5rem;
     margin-bottom: 0.5em;
 }
 
-h4
+h4 
 {
-     color: white;
+    color: white;
     font-family: Josefin Sans;
     font-size: 2.5rem;
     margin-bottom: 0.5em;
-    
+
 }
 
+.iframe 
+{
+    width="1000";
+    height: "400";
+    border: 0px;
+}
+
+.tableImage
+{
+    width="29";
+    height="22";
+}
+
+.center 
+{
+
+    width="23";
+    height="23";
+}
+
+.PartIcon
+{
+    width="23";
+    height="23";
+}
+
+td
+{
+    text-align: center;
+}
